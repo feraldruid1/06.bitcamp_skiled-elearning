@@ -109,7 +109,7 @@ header{
 }
 .enddiv{
     position: absolute;
-    width: 375px;
+    width: 100vw;
     height: 120px;
     background: #13183F;
     display: flex;
@@ -117,7 +117,7 @@ header{
     padding: 16px;
     align-items: center;
     margin-top: 80px;
-    max-width: 100%;
+    flex-shrink: 0გ;
 }
 .lastdivsp{
     background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
