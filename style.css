@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+}
+body{
+    background-color: #fafafa;
+    padding: 16px;
+}
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183F;
+    margin-top: 38px;
+}
+h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-left: 28px;
+}
+h4{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin-top: 26px;
+}
+.getstarted2{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    width: 167px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;  
+    color: #F74780;
+}
+h4{
+    margin-top: 27px;
+}
+.getstarted1{
+    background: #13183F;
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    width: 343px;
+    height: 259px;
+    margin-top: 40px;
+    padding: 29px;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.h3div{
+    width: 343px;
+    height: 120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.divgirlimage{
+    width: 327px;
+    height: 301px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+}
+.icon{
+    position: absolute;
+    top: -24px;
+}
+.enddiv{
+    position: absolute;
+    width: 375px;
+    height: 120px;
+    background: #13183F;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+    margin-top: 80px;
+    max-width: 100%;
+}
+.lastdivsp{
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
