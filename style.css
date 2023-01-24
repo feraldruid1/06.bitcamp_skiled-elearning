@@ -5,7 +5,7 @@
     font-family: 'Plus Jakarta Sans',sans-serif;
 }
 body{
-    background-color: #fafafa;
+    background-color: red;
     display: flex;
     flex-direction: column;
 }
@@ -93,7 +93,7 @@ h4{
     position: relative;
 }
 div{
-
+    margin-left: 16px;
 }
 header{
     display: flex;
@@ -142,4 +142,39 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (min-width:768px){
+    .skilled{
+        margin-left: 40px;
+    }
+    .getstarted1{
+        margin-right: 40px;
+    }
+    .getstarted2{
+        margin-left: 40px;
+    }
+    body{
+        background-image: url("./assets/image-hero-tablet.webp");
+        background-position: left  380px top -100px ;
+        background-repeat: no-repeat;
+    }
+    .divgirlimage{
+        display: none;
+    }
+    h1{
+        width: 326px;
+        margin-left: 40px;
+    }
+    h2{
+        width: 398px;
+        margin-left: 40px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 3 200px;
+        grid-template-rows: 3 200px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 210px;
+    }
 }
