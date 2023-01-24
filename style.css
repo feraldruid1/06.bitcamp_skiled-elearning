@@ -6,7 +6,10 @@
 }
 body{
     background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
 }
+
 .skilled{
     margin-left: 16px;
 }
@@ -90,11 +93,12 @@ h4{
     position: relative;
 }
 div{
-    margin-left: 16px;
+
 }
 header{
     display: flex;
     justify-content: space-between;
+    margin-top: 16px;
 }
 .h3div{
     width: 343px;
@@ -113,12 +117,14 @@ header{
     align-items: center;
     margin-top: 46px;
 }
+.imageofgirl{
+    width: 100%;
+}
 .icon{
     position: absolute;
     top: -24px;
 }
 .enddiv{
-    width: 100vw;
     height: 120px;
     background: #13183F;
     display: flex;
