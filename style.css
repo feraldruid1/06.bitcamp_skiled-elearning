@@ -152,7 +152,7 @@ header{
         background-position: 378px -100px;
     }
     .skilled{
-        margin-left: 30px;
+        margin-left: 40px;
         font-weight: 800;
         font-size: 36px;
         line-height: 45px;
@@ -163,13 +163,13 @@ header{
         line-height: 45px;
     }
     .getstarted1{
-        margin-right: 30px;
+        margin-right: 40px;
         font-weight: 700;
         font-size: 18px;
         line-height: 28px;
     }
     .getstarted2{
-        margin-left: 30px;
+        margin-left: 40px;
         font-weight: 700;
         font-size: 18px;
         line-height: 28px;
@@ -178,7 +178,7 @@ header{
         display: none;
     }
     h1{
-        margin-left: 30px;
+        margin-left: 40px;
         font-weight: 800;
         font-size: 40px;
         line-height: 50px;
@@ -186,7 +186,7 @@ header{
     }
     h2{
         width: 380px;
-        margin-left: 30px;
+        margin-left: 40px;
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
@@ -213,8 +213,8 @@ header{
     }
     main{
         display: grid;
-        grid-template-columns: repeat(2,350px);
-        grid-template-rows:repeat(3,auto);        
+        margin-left: 40px;
+        grid-template-columns: repeat(2,350px);      
         justify-content: center;
         align-items: center;
         margin-top: 210px;
