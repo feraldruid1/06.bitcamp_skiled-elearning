@@ -23,6 +23,7 @@ h1{
     color: #13183F;
     margin-top: 38px;
     margin-left: 16px;
+    width: 329px;
 }
 h3{
     font-weight: 800;
@@ -174,7 +175,7 @@ header{
         margin-left: 40px;
         font-weight: 800;
         font-size: 56px;
-        line-height: 71px; 
+        line-height: 71px;
     }
     h2{
         width: 398px;
@@ -182,7 +183,6 @@ header{
         font-weight: 500;
         font-size: 18px;
         line-height: 28px;
-        display: inline;
     }
     h3{
         font-weight: 800;
