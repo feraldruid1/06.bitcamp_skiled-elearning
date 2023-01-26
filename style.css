@@ -8,53 +8,38 @@ body{
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
-
-.skilled{
-    margin-left: 16px;
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 343px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .getstarted1{
-    margin-right: 16px;
+    width: 140px;
+    background: #13183F;
+    border-radius: 28px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
 }
-h1{
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 50px;
-    color: #13183F;
-    margin-top: 38px;
-    margin-left: 16px;
-    width: 329px;
-}
-h3{
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-    margin-left: 28px;
-    margin-top: 24px;
-}
-h4{
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 25px;
-    color: #13183F;
-
-}
-p{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #83869A;
-    margin-top: 16px;
-}
-h2{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #83869A;
-    margin-top: 26px;
-    margin-left: 16px;
-    width: 343px;
+.skilled{
+    align-self: flex-start;
+    width: 89px;
+    margin-top: 31px;
 }
 .getstarted2{
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -65,24 +50,48 @@ h2{
     justify-content: center;
     align-items: center;
     margin-top: 24px;
+    align-self: flex-start;
 }
-span{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;  
-    color: #F74780;
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183F;
+    margin-top: 38px;
+    width: 329px;
+    align-self: flex-start;
+}
+h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin-top: 26px;
+    width: 343px;
+    align-self: flex-start;
+}
+h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 286px;
+}
+.h3div{
+    width: 343px;
+    height: 120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h4{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
     margin-top: 27px;
-}
-.getstarted1{
-    background: #13183F;
-    border-radius: 28px;
-    width: 140px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .box{
     background: #FFFFFF;
@@ -94,19 +103,18 @@ h4{
     padding: 28px;
     position: relative;
 }
-div{
-    margin-left: 16px;
-}
-header{
-    display: flex;
-    justify-content: space-between;
+p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
     margin-top: 16px;
 }
-.h3div{
-    width: 343px;
-    height: 120px;
-    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-    border-radius: 10px;
+span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;  
+    color: #F74780;
 }
 .divgirlimage{
     width: 327px;
@@ -131,7 +139,8 @@ header{
     padding: 16px;
     align-items: center;
     margin-top: 80px;
-    margin-left: 0px;
+    align-self: flex-start;
+    width: 100%;
 }
 .lastdivsp{
     background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
@@ -143,88 +152,92 @@ header{
     align-items: center;
 }
 @media only screen and (min-width:768px){
+    .bigbox{
+        width: 680px;
+        display: flex;
+        gap: 16px;
+    }
+    .divgirlimage{
+        display: none;
+    }
     body{
         background-image: url("./assets/image-hero-tablet.webp");
         background-repeat: no-repeat;
         background-position: 378px -100px;
     }
-    .skilled{
-        margin-left: 40px;
-        font-weight: 800;
-        font-size: 36px;
-        line-height: 45px;
+    .maindiv{
+        width: 750px;
+        padding: 0px;
     }
-    .lastskilled{
+    .skilled{
         font-weight: 800;
         font-size: 36px;
         line-height: 45px;
+        margin-left: 25px;
     }
     .getstarted1{
-        margin-right: 40px;
         font-weight: 700;
         font-size: 18px;
         line-height: 28px;
         display: flex;
         align-items: center;
-    }
-    .getstarted2{
-        margin-left: 40px;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .divgirlimage{
-        display: none;
+        margin-right: 25px;
     }
     h1{
-        margin-left: 40px;
         font-weight: 800;
         font-size: 40px;
         line-height: 50px;
         width: 457px;
+        margin-left: 25px;
     }
     h2{
-        width: 430px;
-        margin-left: 40px;
+        width: 400px;
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
+        margin-left: 25px;
     }
-    main{
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 40px;   
-        margin-top: 210px;
-        gap: 16px;
-    }
-    div{
-        margin-left: 0px;
+    h3{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        align-self: flex-start;
+        margin-top: 56px;
+        
     }
     .h3div{
         width: 339px;
         height: 259px;
         align-self: flex-end;
     }
-    .lastgetstarted{
-        font-weight: 800;
-        font-size: 36px;
-        line-height: 45px;
-    }
-    .box{
-        width: 340px;
-        height: 259px;
-    padding: 32px;
-    }
-    h3{
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 32px;
-        margin-top: 56px;
-    }
     h4{
         font-weight: 800;
         font-size: 20px;
         line-height: 25px;
+    }
+    .getstarted2{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 25px;
+    }
+    .box{
+        width: 340px;
+        height: 259px;
+        padding: 32px;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 210px;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .lastgetstarted{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 45px;
     }
     p{
         font-weight: 500;
@@ -237,8 +250,15 @@ header{
         line-height: 28px;
         margin-top: 0px;
     }
-    @media only screen and (min-width:1115px) {
-
+    .lastskilled{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    @media only screen and (min-width:1150px) {
+        .maindiv{
+            width: 1150px ;
+        }
         body{
         background-image: url("./assets/image-hero-tablet.webp");
         background-repeat: no-repeat;
@@ -248,19 +268,11 @@ header{
             font-weight: 800;
             font-size: 56px;
             line-height: 71px;
-            
-            margin-left: 117px;
         }
         h2{
             font-weight: 500;
             font-size: 18px;
             line-height: 28px;
-            
-            margin-left: 117px;
-        }
-        .getstarted2{
-            margin-left: 117px;
-            margin-top: 40px;
         }
         h3{
             font-weight: 800;
@@ -269,17 +281,22 @@ header{
             width: 286px;
             margin-top: 64px;
         }
+        .h3div{
+            width: 350px;
+            height: 322px;
+        }
+        .getstarted2{
+            margin-top: 40px;
+        }
         .getstarted1{
             font-weight: 700;
             font-size: 18px;
             line-height: 28px;
-            margin-right: 117px;
         }
         .skilled{
             font-weight: 800;
             font-size: 36px;
             line-height: 45px;
-            margin-left: 117px;
         }
         .box{
             width: 350px;
@@ -287,12 +304,6 @@ header{
         }
         main{
             justify-content: center;
-            margin-left: 0px;
-            width: 1345px;
-        }
-        .h3div{
-            width: 350px;
-            height: 322px;
         }
     }
 }
