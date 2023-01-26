@@ -5,7 +5,7 @@
     font-family: 'Plus Jakarta Sans',sans-serif;
 }
 body{
-    background-color: red;
+    background-color: #fafafa;
     display: flex;
     flex-direction: column;
 }
@@ -31,6 +31,7 @@ h3{
     line-height: 32px;
     color: #FFFFFF;
     margin-left: 28px;
+    margin-top: 24px;
 }
 h4{
     font-weight: 800;
@@ -45,7 +46,6 @@ p{
     line-height: 26px;
     color: #83869A;
     margin-top: 16px;
-    margin-bottom: 24px;
 }
 h2{
     font-weight: 500;
@@ -91,7 +91,7 @@ h4{
     width: 343px;
     height: 259px;
     margin-top: 40px;
-    padding: 29px;
+    padding: 28px;
     position: relative;
 }
 div{
@@ -107,9 +107,6 @@ header{
     height: 120px;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-
 }
 .divgirlimage{
     width: 327px;
@@ -167,6 +164,8 @@ header{
         font-weight: 700;
         font-size: 18px;
         line-height: 28px;
+        display: flex;
+        align-items: center;
     }
     .getstarted2{
         margin-left: 40px;
@@ -185,38 +184,16 @@ header{
         width: 457px;
     }
     h2{
-        width: 380px;
+        width: 430px;
         margin-left: 40px;
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
     }
-    h3{
-        font-weight: 800;
-        font-size: 32px;
-        line-height: 40px;
-    }
-    p{
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .boxspan{
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
-    }
-    h4{
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 30px;
-    }
     main{
-        display: grid;
-        margin-left: 40px;
-        grid-template-columns: repeat(2,350px);      
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;   
         margin-top: 210px;
         gap: 16px;
     }
@@ -224,10 +201,9 @@ header{
         margin-left: 0px;
     }
     .h3div{
-        width: 350px;
-        height: 322px;
-        align-self: end;
-        justify-self: center;
+        width: 339px;
+        height: 259px;
+        align-self: flex-end;
     }
     .lastgetstarted{
         font-weight: 800;
@@ -235,10 +211,88 @@ header{
         line-height: 45px;
     }
     .box{
-        width: 350px;
-        height: 322px;
+        width: 340px;
+        height: 259px;
+    padding: 32px;
     }
-    @media only screen and (min-width:1000px) {
-        
+    h3{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 56px;
+    }
+    h4{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    span{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 0px;
+    }
+    @media only screen and (min-width:1115px) {
+
+        body{
+        background-image: url("./assets/image-hero-tablet.webp");
+        background-repeat: no-repeat;
+        background-position: 850px -80px;
+        }
+        h1{
+            font-weight: 800;
+            font-size: 56px;
+            line-height: 71px;
+            
+            margin-left: 117px;
+        }
+        h2{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            
+            margin-left: 117px;
+        }
+        .getstarted2{
+            margin-left: 117px;
+            margin-top: 40px;
+        }
+        h3{
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 40px;
+            width: 286px;
+            margin-top: 64px;
+        }
+        .getstarted1{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            margin-right: 117px;
+        }
+        .skilled{
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 45px;
+            margin-left: 117px;
+        }
+        .box{
+            width: 350px;
+            height: 322px;
+        }
+        main{
+            justify-content: center;
+            margin-left: 0px;
+            width: 1345px;
+        }
+        .h3div{
+            width: 350px;
+            height: 322px;
+        }
     }
 }
