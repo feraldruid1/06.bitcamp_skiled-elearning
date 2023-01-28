@@ -255,9 +255,9 @@ span{
         font-size: 36px;
         line-height: 45px;
     }
-    @media only screen and (min-width:1150px) {
+    @media only screen and (min-width:1115px) {
         .maindiv{
-            width: 1150px ;
+            width: 1080px ;
         }
         body{
         background-image: url("./assets/image-hero-tablet.webp");
@@ -268,11 +268,13 @@ span{
             font-weight: 800;
             font-size: 56px;
             line-height: 71px;
+            margin-left: 0px;
         }
         h2{
             font-weight: 500;
             font-size: 18px;
             line-height: 28px;
+            margin-left: 0px;
         }
         h3{
             font-weight: 800;
@@ -287,16 +289,19 @@ span{
         }
         .getstarted2{
             margin-top: 40px;
+            margin-left: 0px;
         }
         .getstarted1{
             font-weight: 700;
             font-size: 18px;
             line-height: 28px;
+            margin-right: 0px;
         }
         .skilled{
             font-weight: 800;
             font-size: 36px;
             line-height: 45px;
+            margin-left: 0px;
         }
         .box{
             width: 350px;
@@ -304,6 +309,9 @@ span{
         }
         main{
             justify-content: center;
+        }
+        .boxspan{
+            margin-top: 24px;
         }
     }
 }
