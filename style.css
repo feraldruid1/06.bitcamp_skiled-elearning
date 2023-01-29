@@ -16,9 +16,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    padding-left: 16px;
-    padding-right: 16px;
     width: 343px;
 }
 header{
@@ -58,7 +55,7 @@ h1{
     line-height: 50px;
     color: #13183F;
     margin-top: 38px;
-    width: 329px;
+    width: 390px;
     align-self: flex-start;
 }
 h2{
@@ -109,6 +106,7 @@ p{
     line-height: 26px;
     color: #83869A;
     margin-top: 16px;
+    margin-bottom: 25px;
 }
 span{
     font-weight: 700;
@@ -166,14 +164,13 @@ span{
         background-position: 378px -100px;
     }
     .maindiv{
-        width: 750px;
+        width: 700px;
         padding: 0px;
     }
     .skilled{
         font-weight: 800;
         font-size: 36px;
         line-height: 45px;
-        margin-left: 25px;
     }
     .getstarted1{
         font-weight: 700;
@@ -181,21 +178,18 @@ span{
         line-height: 28px;
         display: flex;
         align-items: center;
-        margin-right: 25px;
     }
     h1{
         font-weight: 800;
         font-size: 40px;
         line-height: 50px;
-        width: 457px;
-        margin-left: 25px;
+        width: 500px;
     }
     h2{
         width: 400px;
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
-        margin-left: 25px;
     }
     h3{
         font-weight: 800;
@@ -203,7 +197,6 @@ span{
         line-height: 32px;
         align-self: flex-start;
         margin-top: 56px;
-        
     }
     .h3div{
         width: 339px;
@@ -219,7 +212,6 @@ span{
         font-weight: 700;
         font-size: 18px;
         line-height: 28px;
-        margin-left: 25px;
     }
     .box{
         width: 340px;
@@ -243,6 +235,7 @@ span{
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
+        margin-bottom: 50px;
     }
     span{
         font-weight: 700;
@@ -268,7 +261,7 @@ span{
             font-weight: 800;
             font-size: 56px;
             line-height: 71px;
-            margin-left: 0px;
+            width: 520px;
         }
         h2{
             font-weight: 500;
