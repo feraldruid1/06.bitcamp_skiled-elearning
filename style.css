@@ -166,12 +166,15 @@ p{
     .divgirlimage{
         display: none;
     }
+    body{
+        
+        background-image: url("./assets/image-hero-tablet.png");
+        background-repeat: no-repeat;
+        background-position: right -250px top -50px;
+    }
     .maindiv{
         width: 700px;
         padding: 0px;
-        background-image: url("./assets/image-hero-tablet.png");
-        background-repeat: no-repeat;
-        background-position: 305px -70px;
     }
     .skilled{
         font-weight: 800;
@@ -270,7 +273,7 @@ p{
         body{
             background-image: url("./assets/image-hero-desktop.png");
             background-repeat: no-repeat;
-            background-position: 640px -150px;
+            background-position: right -350px top -150px;
         }
         h1{
             font-weight: 800;
