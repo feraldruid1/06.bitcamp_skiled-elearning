@@ -10,7 +10,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 .maindiv{
     display: flex;
@@ -130,20 +129,20 @@ span{
     top: -24px;
 }
 .enddiv{
-    position: absolute;
-    top: 300%;
+    align-self: flex-end;
     height: 120px;
     background: #13183F;
-    padding: 16px;
     margin-top: 80px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.endspans{
-    width: 100%;
+.end2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    width: 343px;
 }
 .lastdivsp{
     background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
@@ -249,6 +248,9 @@ span{
         font-size: 36px;
         line-height: 45px;
     }
+    .end2{
+        width: 700px;
+    }
     @media only screen and (min-width:1115px) {
         .maindiv{
             width: 1090px ;
@@ -328,6 +330,9 @@ span{
         }
         #boxspan5{
             margin-top: 24px;
+        }
+        .end2{
+            width: 1090px;
         }
     }
 }
