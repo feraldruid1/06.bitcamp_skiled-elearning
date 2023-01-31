@@ -150,18 +150,15 @@ span{
     align-items: center;
 }
 @media only screen and (min-width:768px){
-    .bigbox{
-        width: 680px;
-        display: flex;
-        gap: 16px;
-    }
-    .divgirlimage{
-        display: none;
-    }
-    body{
+    .backimg{
+        width: 400px;
+        height: 500px;
         background-image: url("./assets/image-hero-tablet.webp");
         background-repeat: no-repeat;
-        background-position: 378px -100px;
+        background-position: -50px -150px;
+    } 
+    .divgirlimage{
+        display: none;
     }
     .maindiv{
         width: 700px;
@@ -235,7 +232,6 @@ span{
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
-        margin-bottom: 50px;
     }
     span{
         font-weight: 700;
@@ -299,6 +295,9 @@ span{
         .box{
             width: 350px;
             height: 322px;
+        }
+        p{
+            margin-bottom: 50px;
         }
         main{
             justify-content: center;
