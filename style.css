@@ -88,6 +88,7 @@ h4{
     line-height: 25px;
     color: #13183F;
     margin-top: 27px;
+    margin-left: 28px;
 }
 .box{
     background: #FFFFFF;
@@ -96,8 +97,10 @@ h4{
     width: 343px;
     height: 259px;
     margin-top: 40px;
-    padding: 28px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 p{
     font-weight: 500;
@@ -105,13 +108,16 @@ p{
     line-height: 26px;
     color: #83869A;
     margin-top: 16px;
-    margin-bottom: 25px;
+    margin-left: 28px;
+    margin-bottom: 24px;
 }
-span{
+.boxspan{
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;  
     color: #F74780;
+    margin-left: 28px;
+    margin-bottom: 32px;
 }
 .divgirlimage{
     width: 327px;
@@ -152,6 +158,9 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.icon{
+    left: 28px;
 }
 @media only screen and (min-width:768px){
     .backimg{
@@ -208,6 +217,7 @@ span{
         font-weight: 800;
         font-size: 20px;
         line-height: 25px;
+        margin-left: 32px;
     }
     .getstarted2{
         font-weight: 700;
@@ -217,7 +227,6 @@ span{
     .box{
         width: 340px;
         height: 259px;
-        padding: 32px;
     }
     main{
         display: flex;
@@ -231,17 +240,22 @@ span{
         font-size: 36px;
         line-height: 45px;
     }
+    .icon{
+        left: 32px;
+    }
     p{
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
         width: 286px;
+        margin-left: 32px;
     }
-    span{
+    .boxspan{
         font-weight: 700;
         font-size: 18px;
         line-height: 28px;
-        margin-top: 0px;
+        margin-left: 32px;
+        margin-bottom: 32px;
     }
     .lastskilled{
         font-weight: 800;
@@ -305,31 +319,15 @@ span{
         }
         p{
             margin-top: 24px;
+            margin-bottom: 24px;
             width: 256px;
+            height: 112px;
         }
         main{
             justify-content: center;
         }
-        h4{
-            margin-top: 32px;
-        }
         .boxspan{
-            margin-top: 24px;
-        }
-        #boxspan1{
-            margin-top: 24px;
-        }
-        #boxspan2{
-            margin-top: 52px;
-        }
-        #boxspan3{
-            margin-top: 52px;
-        }
-        #boxspan4{
-            margin-top: 24px;
-        }
-        #boxspan5{
-            margin-top: 24px;
+            margin-bottom: 40px;
         }
         .end2{
             width: 1090px;
