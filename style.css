@@ -130,15 +130,20 @@ span{
     top: -24px;
 }
 .enddiv{
+    position: absolute;
+    top: 300%;
     height: 120px;
     background: #13183F;
+    padding: 16px;
+    margin-top: 80px;
+    width: 100%;
+}
+.endspans{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
     align-items: center;
-    margin-top: 80px;
-    align-self: flex-start;
-    width: 100%;
+    height: 120px;
 }
 .lastdivsp{
     background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
@@ -219,9 +224,8 @@ span{
         display: flex;
         flex-wrap: wrap;
         margin-top: 210px;
-        gap: 10px;
+        gap: 20px;
         width: 100%;
-        justify-content: center;
     }
     .lastgetstarted{
         font-weight: 800;
@@ -247,10 +251,10 @@ span{
     }
     @media only screen and (min-width:1115px) {
         .maindiv{
-            width: 1080px ;
+            width: 1090px ;
         }
         body{
-        background-image: url("./assets/image-hero-tablet.webp");
+        background-image: url(none);
         background-repeat: no-repeat;
         background-position: 850px -80px;
         }
@@ -298,7 +302,6 @@ span{
             height: 322px;
         }
         p{
-            margin-bottom: 50px;
             margin-top: 24px;
             width: 256px;
         }
@@ -309,6 +312,21 @@ span{
             margin-top: 32px;
         }
         .boxspan{
+            margin-top: 24px;
+        }
+        #boxspan1{
+            margin-top: 24px;
+        }
+        #boxspan2{
+            margin-top: 52px;
+        }
+        #boxspan3{
+            margin-top: 52px;
+        }
+        #boxspan4{
+            margin-top: 24px;
+        }
+        #boxspan5{
             margin-top: 24px;
         }
     }
